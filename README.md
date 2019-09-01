@@ -1,6 +1,6 @@
-# Probability of a Event
+# Probability of a com.mhl.AAAAAEvent
 
-## Event Interface
+## com.mhl.AAAAAEvent Interface
 - action();  // define your action
 - happening(); // calculate the probability of the event,and decide whether happen
 
@@ -8,7 +8,7 @@
     @Test
     public void should_happened_and_return_probability() {
         // given
-        final Event event = () -> System.out.print("Hello World");
+        final com.mhl.AAAAAEvent event = () -> System.out.print("Hello World");
 
         // when
         final double happening = event.happening();
